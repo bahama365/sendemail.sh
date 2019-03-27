@@ -3,5 +3,5 @@
 set timeout -1
 spawn ./sendemailexample.sh
 expect "Password:"
-send -- "gstww272wvvs\$\$\$5\r"
+send -- "yourpassword\r"
 expect eof
